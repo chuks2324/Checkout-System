@@ -22,6 +22,6 @@ class items:
     def changename(self, newname):
         self.name = newname
     
-    def iteminfo(self):
+    def __str__(self):
         info = "Item name is", self.name,"/n Price is", self.price, "/n Barcode is", self.barcode,"/n"
         return info
