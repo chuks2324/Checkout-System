@@ -14,6 +14,7 @@ The shop class has two object properties. They are:
 - The _shopname_. 
 The constructor method takes in a shopname as input.
 The _items_ array has been populated with dummy items at the constructor method with the following item obejcts
+
 |   Item name    |    Price  | Barcode  |
 | -------------- | ----------| -------- |
 |       Milk     |   10.50   |  0120001 |
